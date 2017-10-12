@@ -1,0 +1,14 @@
+body {
+  background-color: #444;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.slide {
+  color: #444;
+  margin: 3vh;
+  padding: 60px;
+  height: 94vh;
+  background-color: #fff;
+  box-shadow: 0 0 3vh 0 #222;
+}
+

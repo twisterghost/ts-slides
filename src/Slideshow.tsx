@@ -1,6 +1,5 @@
 import * as React from "react";
-import Slide1 from "./slides/Slide1";
-import Slide2 from "./slides/Slide2";
+import Slides from "./slides";
 
 interface SlideshowState {
   idx: number;
@@ -8,7 +7,7 @@ interface SlideshowState {
 
 export default class Slideshow extends React.Component<undefined, SlideshowState> {
 
-  private slides: Array<React.ComponentClass | React.StatelessComponent>;
+  private slides: (React.ComponentClass | React.StatelessComponent)[];
 
   public constructor() {
     super();
@@ -16,10 +15,7 @@ export default class Slideshow extends React.Component<undefined, SlideshowState
       idx: 0,
     };
 
-    this.slides = [
-      Slide1,
-      Slide2,
-    ];
+    this.slides = Slides;
     window.addEventListener("keydown", this.handleKeyPress);
   }
 
@@ -53,7 +49,6 @@ export default class Slideshow extends React.Component<undefined, SlideshowState
         });
         break;
       default:
-        break;
     }
   }
 

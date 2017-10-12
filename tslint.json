@@ -1,12 +1,15 @@
 {
     "defaultSeverity": "error",
     "extends": [
-        "tslint:recommended"
+        "tslint-config-airbnb"
     ],
     "jsRules": {},
     "rules": {
-      "interface-name": false,
-      "member-ordering": false
+      "member-ordering": false,
+      "variable-name": [true, "allow-pascal-case"],
+      "import-name": false,
+      "quotemark": [true, "double"],
+      "max-line-length": [true, 120]
     },
     "rulesDirectory": []
 }
