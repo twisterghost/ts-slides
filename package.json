@@ -1,0 +1,25 @@
+{
+  "name": "ts-slides",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "browserify src/Main.tsx -p tsify -o public/script/bundle.js",
+    "dev": "watchify -p tsify src/Main.tsx -o public/script/bundle.js -v",
+    "lint": "tslint ./src/**/*"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^16.0.10",
+    "@types/react-dom": "^16.0.1",
+    "browserify": "^14.4.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "tsify": "^3.0.3",
+    "tslint": "^5.7.0",
+    "typescript": "^2.5.3",
+    "watchify": "^3.9.0"
+  }
+}
