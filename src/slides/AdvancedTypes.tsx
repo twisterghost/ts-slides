@@ -20,8 +20,8 @@ const AdvancedTypes: React.SFC = () => {
       <SlideHeader>Advanced Types</SlideHeader>
       <SlideBody>
         <p>
-          You can read about a whole lot more at the fantastic
-          <a target="_blank" href="http://www.typescriptlang.org/docs/handbook/">TypeScript Handbook</a>,
+          You can read about a whole lot more at the
+          fantastic <a target="_blank" href="http://www.typescriptlang.org/docs/handbook/">TypeScript Handbook</a>,
           but here's a quick overview:
         </p>
         <ul>
@@ -32,9 +32,7 @@ const AdvancedTypes: React.SFC = () => {
           <ul>
             <li>By default, all types are nullable</li>
             <li>
-              Use the flag
-              <Code language="shell" inline={true}>--strictNullChecks</Code>
-              to make types non-nullable
+              Use the flag <Code language="shell" inline={true}>--strictNullChecks</Code> to make types non-nullable
             </li>
           </ul>
         </ul>

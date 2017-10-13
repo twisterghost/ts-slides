@@ -20,9 +20,8 @@ const Simplicity: React.SFC = () => {
       <SlideHeader>Reason 3: Simplicity</SlideHeader>
       <SlideBody>
         <p>
-          Unline other options, TypeScript is one
-          <Code language="shell" inline={true}>npm install typescript</Code>
-          away from being useful.
+          Unline other options, TypeScript is
+          one <Code language="shell" inline={true}>npm install typescript</Code> away from being useful.
         </p>
         <p>You can get started immediately in most cases without configuration.</p>
         <p>Configuration is a simple JSON file, or command line options:</p>

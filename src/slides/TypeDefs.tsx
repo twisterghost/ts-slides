@@ -24,9 +24,8 @@ const TypeDefs: React.SFC = () => {
         <p>TypeScript &lt;3's JavaScript. The community has built type definitions for thousands of popular modules.</p>
         <Code language="shell">{codeSample}</Code>
         <p>
-          Learn more at the
-          <a target="_blank" href="https://github.com/DefinitelyTyped/DefinitelyTyped">DefinitelyTyped</a>
-          repository.
+          Learn more at
+          the <a target="_blank" href="https://github.com/DefinitelyTyped/DefinitelyTyped">DefinitelyTyped</a> repo.
         </p>
       </SlideBody>
     </Slide>
