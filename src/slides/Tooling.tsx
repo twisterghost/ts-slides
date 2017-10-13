@@ -12,6 +12,7 @@ const Tooling: React.SFC = () => {
         <div className="fl w-50">
           <ul>
             <li>Fantastic integration with VSCode, IntelliJ, Vim, etc</li>
+            <li>Native runtime with ts-node</li>
             <li>TS Server for live compilation / tooling</li>
             <li>Linting with tslint (or eslint with a plugin)</li>
             <li>Great support from both Browserify and Webpack</li>

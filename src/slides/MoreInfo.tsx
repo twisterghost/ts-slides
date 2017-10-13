@@ -4,7 +4,7 @@ import Slide from "../components/Slide";
 import SlideBody from "../components/SlideBody";
 import SlideHeader from "../components/SlideHeader";
 
-const VsFlow: React.SFC = () => {
+const MoreInfo: React.SFC = () => {
   return (
     <Slide>
       <SlideHeader>TypeScript compiles to JavaScript</SlideHeader>
@@ -16,16 +16,12 @@ const VsFlow: React.SFC = () => {
           <li>Supported by the TypeScript compiler:</li>
           <ul>
             <li>JSX</li>
+            <li>All modern ESNext features (async/await, import, decorators, etc)</li>
             <li>ECMAScript version targeting back to ES3</li>
             <li>Interop with JavaScript files</li>
             <li>Sourcemapping</li>
-            <li>Type file generation (more on this later)</li>
             <li>Watch mode</li>
             <li>In some cases, even bundling!</li>
-          </ul>
-          <li>Flow looks similar, but is not a compiler</li>
-          <ul>
-            <li>There are pros/cons to both, today we're only looking at TS</li>
           </ul>
         </ul>
       </SlideBody>
@@ -33,4 +29,4 @@ const VsFlow: React.SFC = () => {
   );
 };
 
-export default VsFlow;
+export default MoreInfo;

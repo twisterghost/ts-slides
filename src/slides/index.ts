@@ -8,7 +8,7 @@ import Questions from "./Questions";
 import Simplicity from "./Simplicity";
 import Tooling from "./Tooling";
 import TypeDefs from "./TypeDefs";
-import VsFlow from "./VsFlow";
+import MoreInfo from "./MoreInfo";
 import WhatIsTypeScriptTitle from "./WhatIsTypeScriptTitle";
 import WhatTypeScriptIs from "./WhatTypeScriptIs";
 import WhyShouldICareTitle from "./WhyShouldICareTitle";
@@ -17,7 +17,7 @@ const slides = [
   MainTitle,
   WhatIsTypeScriptTitle,
   WhatTypeScriptIs,
-  VsFlow,
+  MoreInfo,
   DiggingIn,
   Generics,
   AdvancedTypes,
